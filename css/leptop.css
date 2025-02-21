@@ -1,0 +1,35 @@
+/* 1439-768 */
+@media (max-width: 880px) {
+    /* header */
+    header{
+         padding-inline: 24px; 
+    }
+    .burger{
+        display: block;
+        width: 48px;
+        height: 48px;
+        color: white;
+        background-color: #C46A2B;
+        border-radius: 50%;
+        align-items: center;
+        padding-top: 18px;
+        padding-left: 18px;
+    }
+    .header_nav{
+        display: none;
+    }
+    .header_button{
+        display: none;
+    }
+    /* section1 */
+    .section1 {
+        height: 560px;
+    }
+     .section2{
+        overflow-x: scroll;
+     }
+     /* footer */
+     footer{
+        padding-inline: 64px 209px 88px 64px;
+     }
+}
